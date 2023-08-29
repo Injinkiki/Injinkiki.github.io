@@ -1,0 +1,44 @@
+body {
+	padding: 0px;
+	font-family: -apple-system, BlinkMacSystemFont, "Arial", sans-serif;
+}
+
+h1 {
+	font-size: 5.5vh;
+	margin-top: 0;
+}
+
+h3 {
+    font-size: 3.3vh;
+    margin-top: 0;
+}
+
+p {
+	color: rgb(107, 114, 128);
+	font-size: 16px;
+	margin-bottom: 10px;
+	margin-top: 5px;
+}
+
+iframe {
+  background-color: whitesmoke;
+}
+
+.card {
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 16px;
+	border: 1px solid lightgray;
+	border-radius: 16px;
+}
+
+.card p:last-child {
+	margin-bottom: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh;
+}
